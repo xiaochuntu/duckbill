@@ -1,3 +1,5 @@
 duckbill
 ========
-> hello
+__hello world!__
+
+**learning git and composer**
