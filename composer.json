@@ -1,0 +1,15 @@
+{
+    "name": "tcx/duckbill",
+    "authors": [
+        {
+            "name": "tuchunxiao",
+            "email": "281917185@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "psr-4": {
+            "Xiaochuntu\\Duckbill": "src/"
+        }
+    }
+}
