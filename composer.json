@@ -12,5 +12,6 @@
             "Tcx\\Duckbill\\": "src/"
         }
     },
-    "version": "0.0.1"
+    "version": "0.0.1",
+    "license": "MIT"
 }
