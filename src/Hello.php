@@ -1,5 +1,5 @@
 <?php
-namespace Xiaochuntu\Duckbill;
+namespace Tcx\Duckbill;
 /**
  * Created by PhpStorm.
  * User: tcx

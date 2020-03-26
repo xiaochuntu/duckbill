@@ -9,7 +9,8 @@
     "require": {},
     "autoload":{
         "psr-4": {
-            "Xiaochuntu\\Duckbill": "src/"
+            "Tcx\\Duckbill": "src/"
         }
-    }
+    },
+    "version": "0.0.1"
 }
