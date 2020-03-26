@@ -9,7 +9,7 @@
     "require": {},
     "autoload":{
         "psr-4": {
-            "Tcx\\Duckbill": "src/"
+            "Tcx\\Duckbill\\": "src/"
         }
     },
     "version": "0.0.1"
