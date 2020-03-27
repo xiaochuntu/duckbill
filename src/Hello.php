@@ -15,4 +15,11 @@ class Hello
     public function say() {
         echo $this->var;
     }
+
+    public static function __callStatic($name, $arguments)
+    {
+        // 注意: $name 的值区分大小写
+        echo "Calling static method '$name' "
+            . implode(', ', $arguments). "\n";
+    }
 }
