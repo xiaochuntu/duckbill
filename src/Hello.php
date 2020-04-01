@@ -22,4 +22,8 @@ class Hello
         echo "Calling static method '$name' "
             . implode(', ', $arguments). "\n";
     }
+
+    public function __toString() {
+        return $this->var;
+    }
 }
