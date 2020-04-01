@@ -22,4 +22,9 @@ class Hello
         echo "Calling static method '$name' "
             . implode(', ', $arguments). "\n";
     }
+
+    function __invoke($x)
+    {
+        var_dump($x);
+    }
 }
