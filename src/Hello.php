@@ -23,8 +23,13 @@ class Hello
             . implode(', ', $arguments). "\n";
     }
 
+
     function __invoke($x)
     {
         var_dump($x);
+    }
+    public function __toString() {
+        return $this->var;
+
     }
 }
